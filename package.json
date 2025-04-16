@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-tepgd2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "dotenv": "^16.5.0",
+    "natural": "^8.0.1",
+    "node-fetch": "^3.3.2",
+    "twitter-api-v2": "^1.22.0"
+  }
+}
