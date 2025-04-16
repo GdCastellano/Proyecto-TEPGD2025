@@ -83,7 +83,7 @@ TWITTER_ACCESS_TOKEN_SECRET=tu_access_token_secret
 TWITTER_BEARER_TOKEN=tu_bearer_token
 SUPABASE_URL=tu_supabase_url
 SUPABASE_ANON_KEY=tu_supabase_anon_key
-HUGGING_FACE_API_KEY=tu_hugging_face_api_key
+HUGGING_FACE_API_KEY=tu_hugging_face_api_key //para analisis de tendencias y sentimientos en español
 
 
 TWITTER_API_KEY y TWITTER_API_SECRET: Credenciales de tu aplicación en X (no usadas directamente en este proyecto).
@@ -100,7 +100,7 @@ const { extractTweets } = require('./extractTweets');
 
 const params = {
   accounts: ['SeleVinotinto', 'FVF_Oficial'],
-  maxTweets: 15,
+  maxTweets: 15, //Minimo 5, maximo 100
   startDate: '2024-10-01',
   endDate: '2024-11-30',
 };

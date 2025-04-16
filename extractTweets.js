@@ -198,7 +198,7 @@ async function main() {
 
   const params = {
     accounts: ['rafalejov'],
-    maxTweets: 3,
+    maxTweets: 5, //5 TWEETS ES EL MINIMO QUE ACEPTA LA API, MAXIMO 100
     startDate: '2025-03-20',
     endDate: '2025-03-21',
   };
